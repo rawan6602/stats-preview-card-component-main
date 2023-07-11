@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Stats preview card component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+</head>
+<body class=" bg-dark-blue">
+
+  <main class="flex items-center justify-center h-full" id="app">
+    <!-- the card -->
+    <div class="card max-w-x bg-card-background overflow-hidden rounded-md ">
+      <!-- card componant -->
+      <div class="flex ">
+        <!-- left side -->
+        <div class="left-side flex flex-col justify-evenly ">
+          <h1 class="text-white text-3l font-Inter font-black">Get <span class="text-Soft-violet">insights</span> that help your business grow.</h1>
+          <P class="text-main-paragraph text-xs leading-5 font-lexend-deca pb-3x pt-3 opacity-75"> Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+            experience, and overall efficiency.</P>
+
+          <div class="text-white text-xl font-Inter font-bold flex justify-between">
+              <div class="flex flex-col"><span>10k+</span><span class="text-stat-headings text-xxs font-lexend-deca font-thin tracking-widest">COMPANIES</span></div>
+              <div class="flex flex-col "><span>314</span><span class="text-stat-headings text-xxs font-lexend-deca font-thin tracking-widest">TEMPlLATES</span></div>
+              <div class="flex flex-col mr-8"><span>12M+</span><span class="text-stat-headings text-xxs font-lexend-deca font-thin tracking-widest">QUERIES</span></div>
+          </div>
+        </div> 
+
+           <img class="hover:bg-Soft-violet" alt="image" src="./images/image-header-desktop.jpg">
+       
+
+      </div>
+    </div>
+  </main>
+
+
+
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/rawan6602">Rawan Essam</a>.
+  </div>
+</footer>  
+</body>
+</html>
