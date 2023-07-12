@@ -60,6 +60,12 @@ html,body,
   padding-left: 65px;
 }
 
-img{
-  width: 488px;
+.left-side{
+  max-width: 52%;
+}
+.right-side{
+  max-width: 48%;
+  background-image: url(/images/image-header-desktop.jpg);
+  background-size: cover;
+  background-position: center;
 }

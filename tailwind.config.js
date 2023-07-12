@@ -9,6 +9,7 @@ export default {
     extend: {
        maxWidth:{
            'x':'1002px',
+          //  'u':'100%',
           },
           fontSize:{
             'xs':'0.8rem',
@@ -17,7 +18,7 @@ export default {
           },
           spacing: {
             '3x': '2.875rem',
-            
+
           },
         colors:{
           'dark-blue':'hsl(233, 47%, 7%)',
