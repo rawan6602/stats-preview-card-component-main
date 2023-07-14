@@ -7,20 +7,19 @@ export default {
   ],
   theme: {
     extend: {
-       maxWidth:{
+          maxWidth:{
            'x':'1002px',
-          //  'u':'100%',
           },
           fontSize:{
             'xs':'0.8rem',
             'xxs':'0.6rem',
-            '3l':'2rem',
+           
           },
           spacing: {
             '3x': '2.875rem',
 
           },
-        colors:{
+          colors:{
           'dark-blue':'hsl(233, 47%, 7%)',
           'card-background':'hsl(244, 38%, 16%)',
           'main-paragraph':'hsla(0, 0%, 100%, 0.75)',
@@ -29,7 +28,7 @@ export default {
         },
         },
 
-        fontFamily:{
+          fontFamily:{
           'Inter':'"Inter", sans-serif',
           'lexend-deca':'"Lexend Deca", sans-serif',
 

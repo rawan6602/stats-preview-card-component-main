@@ -59,13 +59,87 @@ html,body,
   padding-bottom: 59px;
   padding-left: 65px;
 }
-
 .left-side{
-  max-width: 52%;
+  width: 52%;
 }
 .right-side{
-  max-width: 48%;
+  width: 48%;
   background-image: url(/images/image-header-desktop.jpg);
   background-size: cover;
   background-position: center;
+  position: relative;
+}
+.stats{
+  width: 90%;
+  font-size: 1.2rem;
+}
+
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: hsl(277, 90%, 24%);
+  opacity: 0.6;
+}
+h1{
+  font-size: 2rem;
+}
+p{
+  font-size: 0.8rem;
+  line-height: 1.7;
+}
+.title-value{
+  margin-top: 11px;
+}
+@media screen and (max-width: 800px) {
+ 
+.card-cont {
+  flex-direction: column-reverse;
+  width: 100%;
+}
+.left-side,
+.right-side{
+  width: 100%; 
+  box-sizing: border-box; 
+}
+.stats{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  font-size: 1.5rem;
+}
+.left-side{
+  padding: 0;
+  padding:45px 32px 0px 35px;
+
+}
+.right-side{
+  height:240px;
+  background-image: url(/images/image-header-mobile.jpg);
+
+}
+h1{
+  text-align: center;
+  font-size: 1.7rem;
+}
+p{
+  display: flex;
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+.first-value{
+  margin-bottom: 35px;
+}
+.title-value{
+  margin-top: 13px;
+  font-size: 0.7rem;
+}
+
+#app{height: auto;
+padding: 25px;
+}
 }
