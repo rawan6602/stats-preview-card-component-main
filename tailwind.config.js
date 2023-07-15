@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
           maxWidth:{
-           'x':'1002px',
+           'x':'1113px',
           },
           fontSize:{
             'xs':'0.8rem',
